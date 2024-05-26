@@ -1,0 +1,21 @@
+{
+  "name": "bunny-foo-foo",
+  "displayName": "bunny foo foo",
+  "description": "For all the little bunnies of foo.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "bunny foo foo",
+        "uiTheme": "vs",
+        "path": "./themes/bunny foo foo-color-theme.json"
+      }
+    ]
+  }
+}
